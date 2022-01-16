@@ -22,3 +22,13 @@
     object-fit: cover;
     border-radius: 7px;
 }
+.imageBlock {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.priceBlock {
+    font-family: "Gotham Pro Black";
+}
+
