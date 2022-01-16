@@ -13,4 +13,11 @@ body {
     font-style: normal;
     font-weight: normal;
 }
-
+.carousel-item {
+    height: 400px;
+    border-radius: 30px;
+}
+.carousel-item img {
+    height: 400px;
+    border-radius: 50px;
+}
