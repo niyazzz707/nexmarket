@@ -1,0 +1,16 @@
+body {
+    width: 100%;
+}
+@font-face {
+    font-family: "GothamPro";
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamPro-Black";
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
