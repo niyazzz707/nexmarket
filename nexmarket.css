@@ -1,12 +1,14 @@
 @font-face {
     font-family: "GothamPro";
-    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro.ttf") format("truetype");
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("truetype");
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("svg");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
     font-family: "GothamPro-Black";
     src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("truetype");
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("svg");
     font-style: normal;
     font-weight: normal;
 }
@@ -26,9 +28,12 @@
     height: 250px;
     width: 200px;
     object-fit: cover;
-    border-radius: 7px;
+    border-radius: 15px;
 }
 .priceBlock {
     font-family: "Gotham Pro Black";
+}
+.priceBlock2 .infoBlock {
+    font-family:"Work Sans Black";
 }
 
