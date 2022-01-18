@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="nexmarket.css">
     <link rel="shortcut icon" href="images/iconfavicon.png">
     <script src="https://kit.fontawesome.com/a252f2a699.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/popper.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/tooltip.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
@@ -34,6 +36,9 @@
     .carousel-item img {
         object-fit: cover;
     }
+    a {
+        text-decoration: none;
+    }
 </style>
 <body style="font-family: 'Gotham Pro'">
         <!--Navbar-->
@@ -41,7 +46,7 @@
     <div class="container-fluid mynavbar">
         <!-- Logo -->
         <a class="navbar-brand" href="nexmarket.html" style="font-family:'Gotham Pro Black'" >
-            <img  src="images/logo.ico"  alt=""  width="35" height="37">
+            <img  src="images/logo.ico"  alt=""  width="35" height="36">
             Nexmarket</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -65,22 +70,35 @@
                         <li><a class="dropdown-item" href="#">Sport</a></li>
                         <li><a class="dropdown-item" href="#">Computers</a></li>
                     </ul>
-                <li class="nav-item mx-3">
+                <!--Cart-->
+                <li class="nav-item mx-2">
                     <a class="nav-link" href="#">
                         <i class="fas fa-shopping-cart"></i>
                         Cart
                     </a>
                 </li>
-                <li class="nav-item mx-3">
+                    <!--Login-->
+                <li class="nav-item mx-2">
                     <a class="nav-link" href="login.html">
                         <i class="fas fa-user"></i>
                         Login</a>
                 </li>
-                <li class="nav-item mx-3">
-                    <a class="nav-link" href="">
-                        <i class="fas fa-question-circle"></i>
-                        Help</a>
-                </li>
+                    <!--Help-->
+                <div class="collapse navbar-collapse" id="navbarDropdown">
+                    <ul class="navbar-nav mx-2">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarhelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="fas fa-question-circle"></i>
+                                Help
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDarkDropdownHelp">
+                                <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                                <li><a class="dropdown-item" href="#">Disputes & Reports</a></li>
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </ul>
             <!--Search-->
             <form class="d-flex col-7">
@@ -119,7 +137,7 @@
                     <img src="images/blackfriday.png" class="d-block w-100 rounded-3" alt="...">
                 </div>
                 </div>
-                     <button class="carousel-control-prev"  id="left"type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+                     <button class="carousel-control-prev"  id="left" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
                          <i class="fas fa-arrow-left fa-3x " ></i>
                         </button>
                      <button class="carousel-control-next"  id="right"  type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
@@ -127,31 +145,34 @@
                          </button>
                 </div>
             </div>
-        </div>
         <br>
         <br>
             <!-- Top seller -->
         <div class="container-xxl">
             <div class="row mx-5" style="font-family:'Gotham Pro'">
-                    <p align="left"> <h2>Top seller</h2> </p>
+                    <p align="left"> <h2>Top seller</h2>
             </div>
             <!-- Top seller -->
             <!-- Advetisement -->
+        </div>
     </main>
         <br>
         <center>
         <div class="container">
             <div class="row">
+                    <div class="col-sm">
+                        <a href="" class="link-dark">
+                        <img class="imageBlock" src="images/vedmak.jpg" alt="">
+                            <br>
+                        <span class="priceBlock">39.99$</span>
+                            <br>
+                        <span class="priceBlock2">(11 704 kzt)</span>
+                            <br>
+                        <span class="infoBlock">Witcher 3/Games</span>
+                        </a>
+                    </div>
                 <div class="col-sm">
-                    <img class="imageBlock" src="images/vedmak.jpg" alt="">
-                        <br>
-                    <span class="priceBlock">39.99$</span>
-                        <br>
-                    <span class="priceBlock2">(11 704 kzt)</span>
-                        <br>
-                    <span class="infoBlock">Witcher 3/Games</span>
-                </div>
-                <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/jeans1.png" alt="">
                     <br>
                     <span class="priceBlock">22,97$</span>
@@ -159,8 +180,10 @@
                     <span class="priceBlock2">(10 000 kzt)</span>
                         <br>
                     <span class="infoBlock">Straight leg/Clothes</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/macbookpro.jpg" alt="">
                     <br>
                     <span class="priceBlock">1.299$</span>
@@ -168,6 +191,7 @@
                     <span class="priceBlock2">(565 433 kzt)</span>
                         <br>
                     <span class="infoBlock">MacBook Pro/Computers</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -176,6 +200,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/huggies.jpg" alt="">
                     <br>
                     <span class="priceBlock">15.78$</span>
@@ -183,18 +208,22 @@
                     <span class="priceBlock2">(6 870 kzt)</span>
                         <br>
                         <span class="infoBlock">Huggies/For babies</span>
+                    </a>
                 </div>
 
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/paletka.jpg" alt="">
                     <br>
                     <span class="priceBlock">15,32$</span>
                     <br>
-                    <span class="priceBlock2">(6 668kzt)</span>
+                    <span class="priceBlock2">(6 668 kzt)</span>
                         <br>
                     <span class="infoBlock">Shadow palette/Beauty</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/sunglasses.jpg" alt="">
                     <br>
                     <span class="priceBlock">34$</span>
@@ -202,6 +231,7 @@
                     <span class="priceBlock2">(14 799 kzt)</span>
                         <br>
                     <span class="infoBlock">Tony Stark sunglasses/Accessories</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -210,6 +240,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/kombinezon.jpg" alt="">
                     <br>
                     <span class="priceBlock">270.49$</span>
@@ -217,8 +248,10 @@
                     <span class="priceBlock2">(117 740 kzt)</span>
                         <br>
                     <span class="infoBlock">Jumpsuit for sky/Sport</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/fifa22.jpg" alt="">
                     <br>
                     <span class="priceBlock">75,58$</span>
@@ -226,8 +259,10 @@
                     <span class="priceBlock2">(32 900 kzt)</span>
                         <br>
                     <span class="infoBlock">FIFA 22/Games</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/palto.jpg" alt="">
                     <br>
                     <span class="priceBlock">151,60$</span>
@@ -235,6 +270,7 @@
                     <span class="priceBlock2">(65 990 kzt)</span>
                         <br>
                     <span class="infoBlock">Zara Coat/Clothes</span>
+                    </a>
                 </div>
             </div>
         </div>
@@ -243,6 +279,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/airjordan.jpg" alt="">
                     <br>
                     <span class="priceBlock">50$</span>
@@ -250,8 +287,10 @@
                     <span class="priceBlock2">(21 764 kzt)</span>
                         <br>
                     <span class="infoBlock">Air Jordan/Shoes</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/legostarwars.png" alt="">
                     <br>
                     <span class="priceBlock">64.99$</span>
@@ -259,15 +298,18 @@
                     <span class="priceBlock2">(28 289 kzt)</span>
                         <br>
                     <span class="infoBlock">Lego Star Wars/Toys</span>
+                    </a>
                 </div>
                 <div class="col-sm">
+                    <a href="" class="link-dark" >
                     <img class="imageBlock" src="images/vivobook.png" alt="">
                     <br>
                     <span class="priceBlock">700$</span>
                     <br>
-                    <span class="priceBlock2">(304 698kzt)</span>
+                    <span class="priceBlock2">(304 698 kzt)</span>
                         <br>
                     <span class="infoBlock">Asus VivoBook 15/Computers</span>
+                    </a>
                 </div>
             </div>
         </div>
