@@ -1,0 +1,71 @@
+@font-face {
+    font-family: "GothamPro";
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("truetype");
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "GothamPro-Black";
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("truetype");
+    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("svg");
+    font-style: normal;
+    font-weight: normal;
+}
+/*Carousel*/
+
+.carousel-item {
+    height: 400px;
+    border-radius: 50px;
+}
+.carousel-item img {
+    height: 400px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.image img {
+    object-fit: cover;
+    border-radius: 7px;
+}
+/*Carousel*/
+
+/*Advertisement*/
+.imageBlock {
+    height: 250px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+.priceBlock {
+    font-family: "Gotham Pro Black";
+}
+.priceBlock2 .infoBlock {
+    font-family:"Work Sans Black";
+}
+.pages .pagination a {
+    color: black;
+}
+.pagination>li.active>a {
+    background-color:#00CA5D;
+    color: #fff;
+}
+/*Advertisement*/
+
+/* Footer */
+.footer {
+    background-color:#D3D3D3;
+}
+.footer h4 {
+    color: #000;
+    font-size: 22px;
+    padding-bottom: 3px;
+}
+.footer a {
+    text-decoration: none;
+    color: #383838;
+    font-weight: 500;
+}
+.footer a:hover {
+    color: #00CA5D;
+}
+/* Footer */
