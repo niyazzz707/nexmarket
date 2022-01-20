@@ -39,6 +39,10 @@
     a {
         text-decoration: none;
     }
+    .navbar-nav .dropdown-menu {
+        right: 0;
+        left: auto;
+    }
 </style>
 <body style="font-family: 'Gotham Pro'">
         <!--Navbar-->
@@ -71,21 +75,25 @@
                         <li><a class="dropdown-item" href="#">Computers</a></li>
                     </ul>
                 <!--Cart-->
-                <li class="nav-item mx-2">
+                <li class="nav-item mx-4">
                     <a class="nav-link" href="#">
                         <i class="fas fa-shopping-cart"></i>
                         Cart
                     </a>
                 </li>
-                    <!--Login-->
-                <li class="nav-item mx-2">
-                    <a class="nav-link" href="login.html">
-                        <i class="fas fa-user"></i>
-                        Sign in</a>
-                </li>
-                    <!--Help-->
+                <!--Cart-->
+            </ul>
+            <!--Search-->
+            <form class="d-flex col-7">
+                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <!--Search-->
+
+            <!--Help-->
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <div class="collapse navbar-collapse" id="navbarDropdown">
-                    <ul class="navbar-nav mx-2">
+                    <ul class="navbar-nav mx-3">
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarhelp" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fas fa-question-circle"></i>
@@ -99,15 +107,21 @@
                         </li>
                     </ul>
                 </div>
+                <!--Help-->
+
+                <!--Login-->
+                <li class="nav-item mx-3">
+                    <a class="nav-link" href="login.html">
+                        <i class="fas fa-user"></i>
+                        Sign in</a>
+                </li>
+                <!--Login-->
+
             </ul>
-            <!--Search-->
-            <form class="d-flex col-7">
-                <input class="form-control me-2" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-outline-dark" type="submit"><i class="fas fa-search"></i></button>
-            </form>
         </div>
     </div>
 </nav>
+
         <!-- Text -->
     <div class="container-xxl">
     <div class="row mt-4" style="font-family:'Gotham Pro Black'">
@@ -117,8 +131,9 @@
         </div>
     </div>
     <br>
+
         <!-- Carousel -->
-    <main>
+    <main class="main">
         <div class="container-fluid rounded-3">
         <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -147,6 +162,7 @@
             </div>
         <br>
         <br>
+
             <!-- Top seller -->
         <div class="container-xxl">
            <center><div class="row mx-5" style="font-family:'Gotham Pro'">
@@ -155,8 +171,8 @@
            </center>
         </div>
             <!-- Top seller -->
+
             <!-- Advetisement -->
-    </main>
         <br>
         <center>
         <div class="container">
@@ -318,6 +334,75 @@
             </div>
         </div>
         </center>
+        <br>
+        <br>
+        <div class="pages">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" aria-label="Previous">
+                            <span aria-hidden="true">&laquo;</span>
+                        </a>
+                    </li>
+                    <li class="active"><a class="page-link" href="#">1</a></li>
+                    <li><a class="page-link" href="#">2</a></li>
+                    <li><a class="page-link" href="#">3</a></li>
+                        <a class="page-link" href="#" aria-label="Next">
+                            <span aria-hidden="true">&raquo;</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
              <!-- Advertisement -->
+        <br>
+                <!--Footer-->
+        <footer>
+            <section class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4">
+                            <br>
+                            <h4>For buyers</h4>
+                                <li><a href="#">How to order?</a></li>
+                                <li><a href="#">Payment methods</a></li>
+                                <li><a href="#">Delivery</a></li>
+                                <li><a href="#">Questions & Answers</a></li>
+                        </div>
+                        <div class="col-4">
+                            <br>
+                            <h4>Company</h4>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Contacts</a></li>
+                                <li><a href="#">Credentials</a></li>
+                        </div>
+                        <div class="col-4">
+                            <br>
+                            <h4>We are in social networks</h4>
+                            <div class="icons">
+                                <a href="#"> <i class="fab fa-instagram"></i> Instagram</a>
+
+                                <a class="mx-3"  href="https://t.me/niyazzzbek"> <i class="fab fa-telegram"></i> Niyazbek </a>
+
+                                <a class="mx-3"  href=""> <i class="fab fa-telegram"></i> Yertay </a>
+                                <br>
+                                <a href="#"> <i class="fab fa-facebook-square"></i> Facebook</a>
+                                <a class="mx-3"  href="https://t.me/stoktasyn"> <i class="fab fa-telegram"></i> Sanzhar </a>
+                                <br>
+                                <a href="#"> <i class="fab fa-twitter-square"></i> Twitter</a>
+                                <br>
+                                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <i class="fab fa-youtube"></i> YouTube</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="text-center p-3 text-muted">
+                    2022-2022 © Nexmarket &mdash; online marketplace for your convenience.
+                    <center>Authors are tired of deadlines.</center>
+                </div>
+            </section>
+        </footer>
 </body>
 </html>
