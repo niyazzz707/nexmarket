@@ -14,18 +14,14 @@
 }
 /*Carousel*/
 
-.carousel-item {
-    height: 400px;
-    border-radius: 50px;
+.my-carousel .carousel-item {
+    max-height: 600px;
+    border-radius:50px;
 }
-.carousel-item img {
-    height: 400px;
+.my-carousel .carousel-item img {
+    max-height: 500px;
     border-radius: 50px;
     object-fit: cover;
-}
-.image img {
-    object-fit: cover;
-    border-radius: 7px;
 }
 /*Carousel*/
 
