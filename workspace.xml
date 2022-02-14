@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81494433-0188-4792-8b36-c6842f682db6" name="Changes" comment="" />
+    <list default="true" id="81494433-0188-4792-8b36-c6842f682db6" name="Changes" comment="Main Website" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,15 +10,30 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Rebase.Settings">
+    <option name="NEW_BASE" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="23julqLavSsqHNwM7Lpv4PFf5Jp" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,8 +43,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nexpress/.idea" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -45,11 +61,75 @@
       <option name="presentableId" value="Default" />
       <updated>1642259972615</updated>
       <workItem from="1642259973790" duration="14428000" />
-      <workItem from="1642318174803" duration="16488000" />
+      <workItem from="1642318174803" duration="20277000" />
+      <workItem from="1642340745566" duration="24140000" />
+      <workItem from="1642366715017" duration="1681000" />
+      <workItem from="1642368796249" duration="22000" />
+      <workItem from="1642370851293" duration="65000" />
+      <workItem from="1642370929830" duration="291000" />
+      <workItem from="1642371238257" duration="6929000" />
+      <workItem from="1642378442940" duration="402000" />
+      <workItem from="1642378934056" duration="19000" />
+      <workItem from="1642379123273" duration="259000" />
+      <workItem from="1642410435060" duration="1042000" />
+      <workItem from="1642437497832" duration="20000" />
+      <workItem from="1642437538367" duration="104000" />
+      <workItem from="1642515291059" duration="347000" />
+      <workItem from="1642520697486" duration="672000" />
+      <workItem from="1642521779642" duration="7966000" />
+      <workItem from="1642579760327" duration="5000" />
+      <workItem from="1642708276509" duration="10978000" />
+      <workItem from="1642747014830" duration="888000" />
+      <workItem from="1642748008722" duration="41000" />
+      <workItem from="1642752476194" duration="156000" />
+      <workItem from="1642753131063" duration="1596000" />
+      <workItem from="1642756177168" duration="12000" />
+      <workItem from="1642862572393" duration="14000" />
+      <workItem from="1642945658296" duration="7863000" />
+      <workItem from="1642953625925" duration="27000" />
+      <workItem from="1643014324752" duration="2128000" />
+      <workItem from="1643016607313" duration="39000" />
+      <workItem from="1643033707589" duration="31000" />
+      <workItem from="1643478507723" duration="327000" />
+      <workItem from="1643481020916" duration="223000" />
+      <workItem from="1643548756183" duration="7000" />
+      <workItem from="1644511562998" duration="502000" />
+      <workItem from="1644566667280" duration="2296000" />
+      <workItem from="1644570150945" duration="46000" />
+      <workItem from="1644570211270" duration="39000" />
+      <workItem from="1644574933929" duration="279000" />
+      <workItem from="1644575263066" duration="517000" />
+      <workItem from="1644575800826" duration="8000" />
+      <workItem from="1644592053354" duration="3920000" />
+      <workItem from="1644662925526" duration="23000" />
+      <workItem from="1644744099916" duration="11000" />
     </task>
+    <task id="LOCAL-00001" summary="Main Website">
+      <created>1644574983890</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1644574983890</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Main Website" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main Website" />
   </component>
 </project>
