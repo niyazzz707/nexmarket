@@ -1,3 +1,6 @@
+
+/*FONTS
+================================================*/
 @font-face {
     font-family: "GothamPro";
     src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("truetype");
@@ -12,59 +15,211 @@
     font-style: normal;
     font-weight: normal;
 }
-/*Carousel*/
+/*FONTS
+================================================*/
 
+/*Carousel
+================================================*/
 .my-carousel .carousel-item {
-    max-height: 600px;
-    border-radius:70px;
+    max-height: 300px;
+    min-height: 300px;
 }
 .my-carousel .carousel-item img {
-    max-height: 400px;
-    border-radius: 70px;
+    max-height: 300px;
+    min-height: 300px;
     object-fit: cover;
 }
-/*Carousel*/
+/*Carousel
+================================================*/
 
-/*Advertisement*/
-.img-container {
+/*Products
+================================================*/
+* {
+    box-sizing: border-box;
+}
+.product-wrap {
+    width: 300px;
+    height: 402px;
+    max-width: 100%;
+    background: white;
+    margin-bottom: 30px;
+    border-radius: 24px;
+
+}
+
+/*Product image */
+.product-image {
     position: relative;
 }
-
-.image {
-    transition: .5s ease;
-    backface-visibility: hidden;
-    max-width: 100%;
-    height:9cm;
+.product-image a {
+    display: block;
+}
+.product-image img {
+    display: block;
+    width: 100%;
+    height: 300px;
     object-fit: cover;
+    border-radius: 24px 24px 0 0;
 }
+/*Product image */
 
-.overlay {
-    transition: .5s ease;
-    opacity: 0;
+/*Shadow*/
+.shadow {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    border-radius: 24px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .1);
+    opacity: 0;
+    transition: 0.5s ease-in-out;
 }
-
-.img-container:hover .image {
-    opacity: 0.2;
-
-}
-
-.img-container:hover .overlay {
+.product-wrap:hover .shadow {
     opacity: 1;
 }
+/*Shadow*/
 
-/*Advertisement*/
-
-/* Footer */
-.footer {
-    background-color:#D3D3D3;
+/*Actions*/
+.actions {
+    bottom: 15px;
+    right: 15px;
+    position: absolute;
+    text-align: center;
 }
-.footer h4 {
+.add-to-cart {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0, -50px);
+    transition: 1s ease-in-out;
+}
+.add-to-cart a {
+    border-radius: 10px;
+}
+.add-to-links a {
+    border-radius: 10px;
+}
+.quickview a {
+    border-radius: 10px;
+}
+
+.actions a {
+    background: #202020;
+    color: white;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    width: 42px;
+    transition: .3s ease-in-out;
+    text-decoration: none;
+}
+.actions a:before {
+    font-family: FontAwesome;
+    font-size: 14px;
+}
+.add-to-cart-button:before {
+    content: "\f07a";
+}
+.add-to-wishlist-button:before {
+    content: "\f004";
+}
+.add-to-compare-button:before {
+    content: "\f079";
+}
+.quikview-button:before {
+    content: "\f002";
+}
+.actions a:hover {
+    background: #778899;
+    color:#fff;
+}
+.product-wrap:hover .add-to-cart {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+}
+.add-to-wishlist {
+    opacity: 0;
+    visibility: hidden;
+    transform: translate(0, -50px);
+    transition: .8s ease-in-out;
+    margin: 9px 0 0;
+}
+.product-wrap:hover .add-to-wishlist, .product-wrap:hover .add-to-compare, .product-wrap:hover .quikview {
+    opacity: 1;
+    visibility: visible;
+    transform: translate(0, 0);
+}
+.quikview {
+    opacity: 0;
+    visibility: hidden;
+    transition: .4s ease-in-out;
+    transform: translate(0, -50px);
+    margin: 9px 0 0;
+}
+/*Actions*/
+
+/*Product Info*/
+.product-list h3 {
     color: #000;
-    font-size: 22px;
+    margin-top: 3px;
+    margin-bottom: 0;
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Open Sans', serif;
+}
+.product-list p {
+    margin-block-start: 0px;
+    margin-block-end:0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.actually-price {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+.discount-price {
+    font-size: 13px;
+    color: #a2a2a2;
+    text-decoration: line-through;
+}
+.price-kzt {
+    font-size: 14px;
+    color:#a2a2a2;
+    font-weight: 400;
+    padding-bottom: 2px;
+}
+.product-info {
+    background-color: #CEE5D0;
+    color: #000;
+    padding: 7px;
+    padding-bottom: 2px;
+    padding-top: 2px;
+    border-radius: 10px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.product-info:hover {
+    background-color: #a2a2a2;
+    color: #fff;
+}
+/*Product Info*/
+
+/*Advertisement
+================================================*/
+
+/* Footer
+================================================*/
+.footer {
+    background-color:#CEE5D0;
+}
+.telegrams {
+    margin-top: 10px;
+}
+.footer h5 {
+    color: #000;
+    font-size: 21px;
     padding-bottom: 3px;
 }
 .footer a {
@@ -73,6 +228,10 @@
     font-weight: 500;
 }
 .footer a:hover {
-    color: #00CA5D;
+    color: #778899;
 }
-/* Footer */
+.footer-info {
+    font-family: "Gotham Pro";
+}
+/* Footer
+================================================*/
