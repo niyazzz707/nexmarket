@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ===== Font Awesome ===== -->
+    <script src="https://kit.fontawesome.com/a252f2a699.js" crossorigin="anonymous"></script>
+
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="registration.css">
+
+    <!-- ===== Title ===== -->
+    <title>Sign in & Sign up</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="forms">
+
+        <!--=== Sign in Form ===-->
+        <div class="form signin">
+            <span class="title">Sign in</span>
+
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your email" required>
+                    <i class="fas fa-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Enter your password" required>
+                    <i class="fas fa-lock icon"></i>
+                    <i class="fas fa-eye-slash showHidePw"></i>
+                </div>
+
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="logCheck">
+                        <label for="logCheck" class="text" onclick="clickSound()">Remember me</label>
+                    </div>
+
+                    <a href="#" class="text" onclick="clickSound()">Forgot password?</a>
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Sign in" onclick="clickSound()">
+                </div>
+            </form>
+
+            <div class="signin-signup">
+                    <span class="text">Not a member?
+                        <a href="#" class="text signup-link" onclick="clickSound()">Sign up now</a>
+                    </span>
+            </div>
+        </div>
+        <!--=== Sign in Form ===-->
+
+        <!--=== Sign up Form ===-->
+        <div class="form signup">
+            <span class="title">Sign up</span>
+
+            <form action="#">
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your name" required>
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Enter your email" required>
+                    <i class="fas fa-envelope icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Create a password" required>
+                    <i class="fas fa-lock icon"></i>
+                </div>
+                <div class="input-field">
+                    <input type="password" class="password" placeholder="Confirm a password" required>
+                    <i class="fas fa-lock icon"></i>
+                    <i class="fas fa-eye-slash showHidePw"></i>
+                </div>
+
+                <div class="checkbox-text">
+                    <div class="checkbox-content">
+                        <input type="checkbox" id="sigCheck">
+                        <label for="sigCheck" class="text" onclick="clickSound()">Remember me</label>
+                    </div>
+
+                    <a href="#" class="text" onclick="clickSound()">Forgot password?</a>
+                </div>
+
+                <div class="input-field button">
+                    <input type="button" value="Sign up" onclick="clickSound()">
+                </div>
+            </form>
+
+            <div class="signin-signup">
+                    <span class="text">Already have an account?
+                        <a href="#" class="text signin-link" onclick="clickSound()">Sign in</a>
+                    </span>
+            </div>
+        </div>
+        <!--=== Sign up Form ===-->
+
+    </div>
+</div>
+
+            <!--=== JavaScript ===-->
+<audio id="click" src="sounds/klick.wav"></audio>
+<script src="registration.js"></script>
+            <!--=== JavaScript ===-->
+
+</body>
+</html>
