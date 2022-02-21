@@ -14,12 +14,14 @@ pwShowHide.forEach(eyeIcon =>{
 
                 pwShowHide.forEach(icon =>{
                     icon.classList.replace("fa-eye-slash", "fa-eye");
+                    clickSound();
                 })
             }else{
-                pwField.type = "password";
+                pwField.type = "password"; 
 
                 pwShowHide.forEach(icon =>{
                     icon.classList.replace("fa-eye", "fa-eye-slash");
+                    clickSound();
                 })
             }
         })
