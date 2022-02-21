@@ -1,20 +1,7 @@
 
 /*FONTS
 ================================================*/
-@font-face {
-    font-family: "GothamPro";
-    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("truetype");
-    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro") format("svg");
-    font-style: normal;
-    font-weight: normal;
-}
-@font-face {
-    font-family: "GothamPro-Black";
-    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("truetype");
-    src: url("C:/Users/niyaz/IdeaProjects/nexmarket/.idea/fonts/GothamPro-Black") format("svg");
-    font-style: normal;
-    font-weight: normal;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Poppins:wght@300;400;500;600;700&display=swap');
 /*FONTS
 ================================================*/
 
@@ -36,6 +23,7 @@
 ================================================*/
 * {
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .product-wrap {
     width: 300px;
@@ -165,8 +153,6 @@
     margin-top: 3px;
     margin-bottom: 0;
     font-size: 19px;
-    font-weight: bold;
-    font-family: 'Open Sans', serif;
 }
 .product-list p {
     margin-block-start: 0px;
@@ -175,7 +161,7 @@
     margin-inline-end: 0px;
 }
 .actually-price {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 14px;
     color: #000;
 }
@@ -235,3 +221,44 @@
 }
 /* Footer
 ================================================*/
+
+/*============== WARNING MESSAGE ===============*/
+#warning {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #228B22;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+    border-radius: 10px;
+    color: white;
+}
+
+#warning.show {
+    visibility: visible;
+    animation: fadeIn 0.5s, fadeOut 0.5s 2.5s;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+/*============== WARNING MESSAGE ===============*/
+
