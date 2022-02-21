@@ -19,6 +19,18 @@
 /*Carousel
 ================================================*/
 
+/*============== Animation ===============*/
+.animation {
+    padding-bottom: 20px;
+}
+.animation .h1{
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+.animation .h1 { font-size: 3.5em; }
+
+/*============== Animation ===============*/
+
 /*Products
 ================================================*/
 * {
