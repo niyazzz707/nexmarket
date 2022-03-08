@@ -94,7 +94,7 @@
     transition: 1s ease-in-out;
 }
 .add-to-cart a {
-    border-radius: 10px;
+border-radius: 10px;
 }
 .add-to-links a {
     border-radius: 10px;
@@ -241,6 +241,8 @@
 /* Footer
 ================================================*/
 
+
+
 /*============== WARNING MESSAGE ===============*/
 #warning {
     visibility: hidden;
@@ -283,7 +285,6 @@
 
 /*============== MEDIA =====================*/
 
-
 @media screen and (max-width: 992px)  {
     .animation h1 {
         font-size: 35px;
@@ -291,8 +292,8 @@
     .products h5 {
         font-size: 50px;
     }
-    .product-list h3 {
-        font-size: 12px;
+ .product-list h3 {
+    font-size: 12px;
     }
     .product-price span {
         font-size: 11px;
@@ -328,7 +329,7 @@
     .product-list h3 {
         font-size: 15px;
     }
-    .product-price span {erqrsadddxz
+    .product-price span {
         font-size: 13px;
     }
     .product-price del {
@@ -343,5 +344,4 @@
 }
 
 /*============== MEDIA =====================*/
-
 
