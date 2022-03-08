@@ -345,6 +345,22 @@ border-radius: 10px;
     .product-list a {
         font-size: 13px;
     }
+
+    .footer h5 {
+        font-size: 15px;
+    }
+    .footer-info a {
+        font-size: 11px;
+    }
+    .icons a {
+        font-size: 10px;
+    }
+    .telegrams a {
+        font-size: 10px;
+    }
+    .end {
+        font-size: 13px;
+    }
 }
 
 /*============== MEDIA =====================*/
