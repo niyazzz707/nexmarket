@@ -325,9 +325,6 @@
 }
 
 @media screen and (max-width: 576px) {
-    .product-wrap {
-        margin-left: 100px;
-    }
     .product-list h3 {
         font-size: 15px;
     }
