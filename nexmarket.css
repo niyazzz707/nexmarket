@@ -19,6 +19,18 @@
 /*Carousel
 ================================================*/
 
+/*============== Animation ===============*/
+.animation {
+    padding-bottom: 20px;
+}
+.animation .h1{
+    font-weight: 200;
+    margin: 0.4em 0;
+}
+.animation .h1 { font-size: 3.5em; }
+
+/*============== Animation ===============*/
+
 /*Products
 ================================================*/
 * {
@@ -205,13 +217,20 @@ border-radius: 10px;
 }
 .footer h5 {
     color: #000;
-    font-size: 21px;
+    font-size: 19px;
     padding-bottom: 3px;
 }
 .footer a {
     text-decoration: none;
     color: #383838;
     font-weight: 500;
+    font-size: 15px;
+}
+.icons a{
+    font-size: 14px;
+}
+.telegrams a {
+    font-size: 14px;
 }
 .footer a:hover {
     color: #778899;
@@ -222,17 +241,7 @@ border-radius: 10px;
 /* Footer
 ================================================*/
 
-/*============== Animation ===============*/
-.animation {
-    padding-bottom: 20px;
-}
-.animation .h1{
-    font-weight: 200;
-    margin: 0.4em 0;
-}
-.animation .h1 { font-size: 3.5em; }
 
-/*============== Animation ===============*/
 
 /*============== WARNING MESSAGE ===============*/
 #warning {
@@ -273,4 +282,69 @@ border-radius: 10px;
     }
 }
 /*============== WARNING MESSAGE ===============*/
+
+/*============== MEDIA =====================*/
+
+@media screen and (max-width: 992px)  {
+    .animation h1 {
+        font-size: 35px;
+    }
+    .products h5 {
+        font-size: 50px;
+    }
+ .product-list h3 {
+    font-size: 12px;
+    }
+    .product-price span {
+        font-size: 11px;
+    }
+    .product-price del {
+        font-size: 10px;
+    }
+    .price-kzt {
+        font-size: 11px;
+    }
+    .product-list a {
+        font-size: 11px;
+    }
+
+    .footer h5 {
+        font-size: 15px;
+    }
+    .footer-info a {
+        font-size: 12px;
+    }
+    .icons a {
+        font-size: 10px;
+    }
+    .telegrams a {
+        font-size: 10px;
+    }
+    .end {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .product-wrap {
+     margin-left: 100px;
+    }
+    .product-list h3 {
+        font-size: 15px;
+    }
+    .product-price span {
+        font-size: 13px;
+    }
+    .product-price del {
+        font-size: 12px;
+    }
+    .price-kzt {
+        font-size: 13px;
+    }
+    .product-list a {
+        font-size: 13px;
+    }
+}
+
+/*============== MEDIA =====================*/
 
